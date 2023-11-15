@@ -2,7 +2,7 @@ defmodule Paginator.Mixfile do
   use Mix.Project
 
   @source_url "https://github.com/duffelhq/paginator"
-  @version "1.2.0"
+  @version "1.2.1"
 
   def project do
     [
@@ -40,7 +40,7 @@ defmodule Paginator.Mixfile do
       {:ex_machina, "~> 2.1", only: :test},
       {:inch_ex, "~> 2.0", only: [:dev, :test]},
       {:postgrex, "~> 0.13", optional: true},
-      {:plug_crypto, "~> 1.2.0"}
+      {:plug_crypto, "~> 2.0.0"}
     ]
   end
 
